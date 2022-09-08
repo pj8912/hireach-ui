@@ -1,0 +1,114 @@
+/* #navbars {
+    background: #012c6d;
+    color: white;
+} */
+
+#connection-btn {
+    text-decoration: none;
+    font-size: 12px;
+    background: red;
+    color: white;
+    /* margin-right: 20px; */
+    margin: 15px;
+    font-weight: bold;
+    padding: 5px;
+    width: 140px;
+}
+
+#connection-btn:hover {
+    background: white;
+    color: red;
+}
+
+.navbar-custom {
+    background-color: #012c6d;
+}
+
+.navbar-text {
+    color: white
+}
+
+footer {
+    padding: 10px;
+    margin-top: 30px;
+    /* margin: 10px; */
+    color: white;
+    background-color: #012c6d;
+}
+
+.on-footer {
+    margin-top: 40px;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 1fr 1fr 1fr auto;
+}
+
+.quick-links {
+    grid-column: 1/2;
+    color: white;
+}
+
+.quick-links ul li {
+    list-style: none;
+    padding: 6px;
+}
+
+.quick-links ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}
+
+.quick-links ul li a:hover {
+    background: white;
+    color: #012c6d;
+    padding: 10px;
+    width: fit-content;
+}
+
+.contact-info {
+    grid-column: 2/4;
+}
+
+.contact-info ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.contact-info ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}
+
+.others {
+    grid-column: 4;
+}
+
+.others ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.others ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}
+
+.others ul li a:hover {
+    background: white;
+    color: #012c6d;
+    padding: 8px;
+}
+
+.carousel-item {
+    height: 300px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    width: 50px;
+    height: 300px;
+}
